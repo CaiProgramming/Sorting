@@ -9,8 +9,6 @@ def selection_sort( arr ):
 
         arr[low], arr[min_dex] = arr[min_dex], arr[low]
     return arr
-
-
 print(selection_sort([9,8,7,6,5,4,3,2,1]))
 # TO-DO:  implement the Bubble Sort function below
 def bubble_sort( arr ):
